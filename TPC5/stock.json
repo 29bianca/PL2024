@@ -1,0 +1,28 @@
+{
+    "stock": [
+        {
+            "cod": "A23",
+            "nome": "\u00e1gua 0.5L",
+            "quant": 7,
+            "preco": 0.7
+        },
+        {
+            "cod": "B45",
+            "nome": "caf\u00e9 250g",
+            "quant": 15,
+            "preco": 3.5
+        },
+        {
+            "cod": "C67",
+            "nome": "p\u00e3o de forma",
+            "quant": 10,
+            "preco": 1.2
+        },
+        {
+            "cod": "D89",
+            "nome": "leite 1L",
+            "quant": 20,
+            "preco": 0.9
+        }
+    ]
+}
