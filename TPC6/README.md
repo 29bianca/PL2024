@@ -5,11 +5,11 @@
 T = {'?', '!', '=', '+', '-', '*', '/', '(', ')', var, num}
 
 ## Símbolos Não Terminais
-```sql
+
 N = {S, exp1, op1, exp2, op2, exp3}
 
 ## Símbolo Inicial
-```sql
+
 S = S
 
 ## Regras de Produção
