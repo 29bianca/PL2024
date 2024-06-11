@@ -1,19 +1,22 @@
 # Gramática
 ## Símbolos Terminais
 
-```sql
+```
 T = {'?', '!', '=', '+', '-', '*', '/', '(', ')', var, num}
+```
 
 ## Símbolos Não Terminais
-
+```
 N = {S, exp1, op1, exp2, op2, exp3}
+```
 
 ## Símbolo Inicial
-
+```
 S = S
+```
 
 ## Regras de Produção
-
+```
 P = {
     S -> '?' var           LA = {'?'}
        | var '=' exp1      LA = {var}
@@ -35,3 +38,4 @@ P = {
           | var            LA = {var}
           | num            LA = {num}
 }
+```
